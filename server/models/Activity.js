@@ -41,6 +41,6 @@ const activitySchema = new Schema ({
   }
 );
 
-const Activity = model('Comment', activitySchema);
+const Activity = model('Activtu', activitySchema);
 
-module.exports = Comment;
+module.exports = Activity;
