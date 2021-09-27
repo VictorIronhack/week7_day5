@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-class CoastersService {
+class GymService {
   constructor(){
     this.instance = axios.create({
       baseURL: `${process.env.REACT_APP_API_URL}/coasters`
@@ -12,4 +12,4 @@ class CoastersService {
   createCoaster = (coaster) => this.instance.post("/", coaster);
 }
 
-export default CoastersService;
+export default GymService;

@@ -1,9 +1,9 @@
 const router = require("express").Router();
-const coastersRouter = require('./coaster.routes')
+const gymRouter = require('./gym.routes')
 const authRouter = require('./auth.routes')
 
 
-router.use("/coasters", coastersRouter);
+router.use("/gym", gymRouter);
 router.use("/auth", authRouter);
 
 // You put the next routes here 👇

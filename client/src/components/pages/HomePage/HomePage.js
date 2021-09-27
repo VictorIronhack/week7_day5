@@ -1,16 +1,11 @@
 import React from 'react'
-import { Button, Container } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 
 export default function HomePage() {
   return (
-    <Container style={{ minHeight: "100vh" }}>
-      <h1>Bienvenid@ a Coasters App</h1>
-      <h3>MERN Application</h3>
+    <div>
+      {/* <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1375&q=80" alt="fitness"/> */}
+    </div>
 
-      <Link to="/montañas-rusas">
-        <Button>Ver montañas rusas</Button>
-      </Link>
-    </Container>
+    
   )
 }
